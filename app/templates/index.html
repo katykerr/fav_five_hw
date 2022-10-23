@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>Welcome To My Top Artists!</h1>
+
+
+{% for b in bands %}
+
+    <li style="list-style:none; padding-top: 1.5em;">{{b}}</li>
+
+{% endfor %}
+
+
+{% endblock %}
+
+
+</body>
+</html>
